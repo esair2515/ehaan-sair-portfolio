@@ -11,6 +11,7 @@ export const projects = [
     id: 'procureiq',
     name: 'ProcureIQ',
     description: 'An AI-assisted procurement analytics application for comparing suppliers and understanding organizational spend, demonstrated with synthetic data.',
+    demoUrl: 'https://procureiq-lake.vercel.app',
   },
   {
     id: 'semred',
