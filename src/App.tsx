@@ -57,6 +57,11 @@ function App() {
         <section className="section" id="research" aria-labelledby="research-title">
           <h2 id="research-title">[ research ]</h2>
           <p>{research.description}</p>
+          <p>
+            <span className="item-title">{research.additional.title}</span><br />
+            <em>{research.additional.status}</em><br />
+            {research.additional.description}
+          </p>
           {research.publicationUrl && (
             <p className="research-link"><a href={research.publicationUrl} target="_blank" rel="noreferrer">read the paper</a></p>
           )}

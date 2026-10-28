@@ -17,6 +17,11 @@ export const projects = [
     name: 'SemRed',
     description: 'An in-development platform exploring privacy-focused document redaction and human review.',
   },
+  {
+    id: 'origin',
+    name: 'Origin',
+    description: 'An in-development marketplace for buying, selling, and collaborating on startup ideas and unfinished projects.',
+  },
 ]
 
 export const experience = [
@@ -29,4 +34,9 @@ export const experience = [
 export const research = {
   description: 'I conduct independent AI ethics research with Dr. Paul Yi, affiliated with St. Jude Children’s Research Hospital. My published research appears in the Research Archive of Rising Scholars.',
   publicationUrl: '',
+  additional: {
+    title: 'Disaster Risk & Resilience — Cornell University / US Ignite',
+    status: 'Research in progress, October 2026–Present',
+    description: 'Researching emerging technologies for disaster prediction and infrastructure resilience, with a focus on commercialization challenges and opportunities for federal investment.',
+  },
 }
