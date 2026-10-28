@@ -1,33 +1,38 @@
-# Ehaan Sair — personal portfolio
+# Ehaan Sair
 
-## Run locally
+**Business, technology, and everything in between.**
 
-```bash
-npm install
-npm run dev
-```
+Cornell University student studying Public Policy, interested in entrepreneurship, business strategy, artificial intelligence, and technology policy.
 
-## Edit your content
+[Portfolio website](https://esair2515.github.io/ehaan-sair-portfolio/) · [LinkedIn](https://linkedin.com/in/ehaansair) · [Email](mailto:ehs223@cornell.edu) · [Resume](https://esair2515.github.io/ehaan-sair-portfolio/resume.pdf)
 
-Update `src/data.ts` to change profile links, projects, experience, or research. To add screenshots, put image files in `public/` and add a `screenshots` array with `src` and `alt` fields to that project. Add a `demoUrl` to a project to show its live demo link. Replace `public/resume.pdf` with your final resume, keeping the same filename so both download links continue to work. Set `research.publicationUrl` when a publication link is available.
+---
 
-## Deploy on GitHub Pages
+## Selected work
 
-This project includes a GitHub Actions workflow at `.github/workflows/deploy.yml`. Every push to `main` builds the site and publishes `dist` to GitHub Pages.
+### ProcureIQ — Procurement Intelligence Platform
 
-1. On GitHub, create a **public** repository named `ehaan-sair-portfolio` under your account, `esair2515`. GitHub Free requires a public repository for Pages; the published site itself is public either way.
-2. In this folder, open Terminal and run:
+An AI-assisted procurement analytics application for supplier comparisons, spend analysis, interactive scenario planning, and business insights. Demonstration uses synthetic data.
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Create personal portfolio"
-   git branch -M main
-   git remote add origin https://github.com/esair2515/ehaan-sair-portfolio.git
-   git push -u origin main
-   ```
+### SemRed — AI-Assisted Redaction Platform
 
-3. In the GitHub repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**.
-4. Open the **Actions** tab and wait for “Deploy portfolio to GitHub Pages” to finish. Your site will be at `https://esair2515.github.io/ehaan-sair-portfolio/`.
+An in-development exploration of privacy-focused document redaction, conversational rule creation, and human-in-the-loop review.
 
-The workflow redeploys the site on every later push to `main`. The project uses relative asset paths so it works from the repository subpath. The published website is public.
+---
+
+## Experience
+
+- **Courselynx** — Director of Growth · June 2026–Present
+- **Cornell University / US Ignite** — Student Researcher · October 2026–Present
+- **Apollonian AI** — Advisor; formerly Chief Strategic Officer · November 2024–Present
+- **EGG Labs** — Director of Management · July–September 2025
+
+---
+
+## Research
+
+Independent AI ethics research under Dr. Paul Yi, affiliated with St. Jude Children's Research Hospital. My published research also appears in the *Research Archive of Rising Scholars*.
+
+---
+
+Questions or ideas? [Get in touch](mailto:ehs223@cornell.edu).
