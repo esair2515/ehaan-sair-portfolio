@@ -99,6 +99,8 @@ h1 {
 
 .research-link { margin-top: 1px; color: #777; }
 
+.research-additional { margin-top: 9px !important; }
+
 .experience-list { gap: 7px; }
 
 .experience-list li {

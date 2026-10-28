@@ -34,9 +34,5 @@ export const experience = [
 export const research = {
   description: 'I conduct independent AI ethics research with Dr. Paul Yi, affiliated with St. Jude Children’s Research Hospital. My published research appears in the Research Archive of Rising Scholars.',
   publicationUrl: '',
-  additional: {
-    title: 'Disaster Risk & Resilience — Cornell University / US Ignite',
-    status: 'Research in progress, October 2026–Present',
-    description: 'Researching emerging technologies for disaster prediction and infrastructure resilience, with a focus on commercialization challenges and opportunities for federal investment.',
-  },
+  additional: "I'm currently researching disaster risk and resilience with Cornell University and US Ignite, focusing on emerging technologies for disaster prediction, infrastructure resilience, and challenges surrounding commercialization and federal investment.",
 }
