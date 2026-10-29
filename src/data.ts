@@ -14,6 +14,12 @@ export const projects = [
     demoUrl: 'https://procureiq-lake.vercel.app',
   },
   {
+    id: 'courselynx-growth-analytics',
+    name: 'Courselynx Growth Analytics',
+    description: 'An Excel dashboard analyzing campus growth, modeled commission costs, and alternative incentive structures.',
+    workbookUrl: './projects/Courselynx_Growth_Analytics.xlsx',
+  },
+  {
     id: 'semred',
     name: 'SemRed',
     description: 'An in-development platform exploring privacy-focused document redaction and human review.',

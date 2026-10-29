@@ -38,6 +38,7 @@ function App() {
                 <p>
                   <span className="item-title">{project.name}</span> — {project.description}
                   {project.demoUrl && <> <a href={project.demoUrl} target="_blank" rel="noreferrer">live demo</a></>}
+                  {project.workbookUrl && <> <a href={project.workbookUrl} download>view workbook</a></>}
                 </p>
               </li>
             ))}
